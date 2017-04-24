@@ -1,0 +1,97 @@
+body {
+    font: 13px arial, sans-serif;
+    overflow: hidden;
+}
+
+.header {
+    text-align: right;
+    display: inline;
+}
+.header_buttons a {
+    line-height: 28px;
+    text-decoration: none;
+    color: black;
+    opacity: .75;
+    padding-left: 10px;
+}
+
+.header_buttons img {
+    position: relative;
+    top: 10px;
+    padding-left: 6px;
+}
+
+.header_buttons input {
+    background: #4285F4;
+    color: white;
+    line-height: 28px;
+    display: inline-block;
+    border: 1px solid #4285F4;
+    font-weight: bold;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 0 12px;
+    margin-left: 15px;
+    margin-right: 8px;
+}
+
+.main {
+    text-align: center;
+}
+
+.logo_img {
+    height: 92px;
+    width: 272px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 154px;
+}
+
+.forms {
+    height: 130px;
+    padding-top: 28px;
+}
+
+.searchbar {
+    box-sizing: border-box;
+    border-radius: 3px;
+    height: 44px;
+    width: 600px;
+    padding: 5px 9px 0;
+    border-radius: 2px;
+    vertical-align: top;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+input#input-text {
+    float: left;
+    border: none;
+    padding: 8px 0;
+    height: auto;
+    width: 430px;
+    outline: none;
+}
+
+.mic {
+    height: 23px;
+    width: 17px;
+    position: relative;
+    top: 5px;
+    left: 4px;
+    float: right;
+    padding: 0 8px;
+    display: inline-block;
+}
+
+.footer {
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background-color: #F2F2F2;
+    border-top: 1px solid #E4E4E4;
+    line-height: 40px;
+    text-align: center;
+}
+
+
